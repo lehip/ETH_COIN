@@ -1,5 +1,6 @@
 const express = require('express');
 const greet = require('./export.js');
+const tpm = reuire('./tpm.js');
 
 var app = express()
 var port = 2001      // Port của localhost do mình chọn
